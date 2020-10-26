@@ -1,93 +1,98 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Hwee Shan
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Wong
+about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience for other engineers. 
+
 position: Software Developer
 
-birth:
-  year: 1990
-  location: New York
-
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Natwest Group, Edinburgh
+  position: Software Engineer
+  timeperiod: since April 2018
+  description: • Automated onboarding process to developer tools
+  description2: • Developed microservices in event-driven architecture
+  description3: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
+  description4: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Natwest Group, Edinburgh
+  position: Technology Service Analyst
+  timeperiod: Sep 2017 – Apr 2018
+  description: • Migrated server data from bespoke tools to ServiceNow CMDB for better consolidation of data within the enterprise.
+  description2: • Embedded agile methodology for the project through creation of short-term, manageable goals and Kanban dashboards.
+  description3: • Improved communications plans with stakeholders to ensure transparency and effective communication
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
-
+- company: Merck Sharp & Dohme (MSD), Newcastle
+  position: Chemical Engineer
+  timeperiod: Aug 2015 – Sep 2016
+  description: • Supported technical operations in solid-dose tablet production facility and operated within GMP standards.
+  description2: • Led incidents/deviations investigations to identify root causes using Lean Six Sigma methodologies.
+  description3: • Generated technical memorandums for process improvements. Implementation of new design reduced operation downtime.
+  
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: MEng Chemical Engineering with Industrial Experience, University of Manchester
+  timeperiod: Sep 2013 – Jun 2017
+  description: First Class Honors
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: A Levels, Taylor’s College Subang Jaya
+  timeperiod: Jan 2012 – Jun 2013
+  description: 4A* in Chemistry, Biology, Physics, Mathematics
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+- name: Java
+- name: Ansible
+- name: Golang
+- name: Python
+- name: Apache Kafka
+- name: Apache Kafka
+- name: MongoDB
+- name: PaaS
+- name: AWS
+- name: Terraform
+- name: Consul
+- name: API
+- name: Splunk
+- name: Linux
+- name: AppDynamics
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: CICD
+knowledge: Grew up trilingual (English, Mandarin, Malay).
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   timeperiod: February 2016
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
 
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Women In Tech Secretariat
+  description: Actively supporting gender balance within workplace. Running python workshops to promote engineering.
+
+- name: STEM Ambassador
+  description: Encouraging students to appreciate Science, Technology, Engineering and Math (STEM) subjects by engaging students in interesting experiments and sharing work experience.
+
+- name: STV Big Scot Quiz Volunteer
+  description: Volunteered to assist and coordinate the running of a major, high-profile charity event that was held concurrently in Edinburgh and Glasgow which raised £35,000.
+  
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: hweeshan.wong@natwest.com
+  phone: +44 7424 586 826
+  street: Flat 8, 4 Appin Place, EH14 1PW
+  city: Edinburgh
+  github: HweeWong
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

@@ -107,14 +107,18 @@
               :class="{ link: experience.website !== undefined}"
               :href="experience.website">
 
-              <span class="section-content__header">{{ experience.position }}</span>
-              <span class="section-content__subheader">
+              <span class="section-content-new__header">{{ experience.position }}</span>
+              <span class="section-content-new__subheader">
                 {{ experience.company }}
-                <span class="section-content__plain">{{ experience.location }}</span>
+                <span class="section-content-new__plain">{{ experience.location }} | {{ experience.timeperiod }}</span>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
-              <span class="section-content__text--light">{{ experience.description }}</span>
+        
+              <span class="section-content-new__text-info">{{ experience.description }}</span>
+              <span class="section-content-new__text-info">{{ experience.description2 }}</span>
+              <span class="section-content-new__text-info">{{ experience.description3 }}</span>
+              <span class="section-content-new__text-info">{{ experience.description4 }}</span>
+
             </a>
           </div>
         </div>
@@ -199,12 +203,12 @@ export default Vue.component(name, getVueOptions(name));
 
 <style lang="less" scoped>
 @accent-color: #34495E;
-@banner-color: #42b883;
-@banner-height: 120px;
-@picture-size: 120px;
+@banner-color: #401664;
+@banner-height: 50px;
+@picture-size: 80px;
 @picture-offset: 35px;
 @base-padding: 30px;
-@left-column-width: 240px;
+@left-column-width: 230px;
 
 .link {
   color: inherit;
@@ -224,12 +228,12 @@ export default Vue.component(name, getVueOptions(name));
 
 .picture {
   position: absolute;
-  top: @banner-height - @picture-offset;
-  left: @left-column-width + @base-padding * 2 - @picture-size / 2;
+  top: 15px;
+  right: 30px;
   height: @picture-size;
   width: @picture-size;
   border-radius: 50%;
-  border: 5px solid @accent-color;
+  border: 0px solid @accent-color;
   content: url('../../resume/id.jpg');
   z-index: 2;
 }
@@ -335,6 +339,72 @@ export default Vue.component(name, getVueOptions(name));
   }
 
   &__plain,
+  &__text {
+    display: block;
+    font-size: 12px;
+
+    &--light {
+      font-size: 12px;
+    }
+  }
+
+  &__plain {
+    display: inline;
+    font-weight: 300;
+  }
+
+  &__item-grid {
+    flex: 1 1 0;
+    margin-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  &--plain {
+    padding: 0;
+  }
+}
+
+
+.section-content-new {
+  margin-top: 5px;
+  padding-left: 32px;
+  font-size: 17px;
+
+  &__item {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  &__header {
+    display: block;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-above: 10px;
+  }
+
+  &__subheader {
+    display: block;
+    font-weight: 500;
+  }
+
+  &__plain,
+
+  &__text-info {
+    display: block;
+    font-size: 13.5px;
+    margin-bottom:2px;
+  }
+
+  &__item-grid {
+    flex: 1 1 0;
+    margin-bottom: 5px;
+    padding-right: 5px;
+  }
+
+  &--plain {
+    padding: 0;
+  }
+
   &__text {
     display: block;
     font-size: 12px;

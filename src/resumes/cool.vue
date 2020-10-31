@@ -112,12 +112,14 @@
                 {{ experience.company }}
                 <span class="section-content-new__plain">{{ experience.location }} | {{ experience.timeperiod }}</span>
               </span>
-              <span class="section-content-new__text-info">{{ experience.description }}</span>
-              <span class="section-content-new__text-info">{{ experience.description2 }}</span>
-              <span class="section-content-new__text-info">{{ experience.description3 }}</span>
-              <span class="section-content-new__text-info">{{ experience.description4 }}</span>
-              <span class="section-content-new__text-info">{{ experience.description5 }}</span>
-
+              <a
+                v-for="(description, index) in experience.description"
+                class="grid-item"
+                :key="index">
+                <span class="section-content-new__text-info">
+                  {{ description.item }}
+                </span>
+              </a>
             </a>
           </div>
         </div>

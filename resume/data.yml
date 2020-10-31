@@ -11,25 +11,28 @@ experience:
 - company: Natwest Group, Edinburgh
   position: Software Engineer
   timeperiod: since April 2018
-  description: • Automated onboarding process to developer tools. Reducing cycle time from 48 hrs to 5 mins.
-  description2: • Developed microservices in event-driven architecture. Have a good understanding of the ecosystem.
-  description3: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
-  description4: • Cultivated culture of BDD, TDD within the team.
-  description5: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
+  description: 
+  - item: • Automated onboarding process to developer tools. Reducing cycle time from 48 hrs to 5 mins.
+  - item: • Developed microservices in event-driven architecture. Have a good understanding of the ecosystem.
+  - item: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
+  - item: • Cultivated culture of BDD, TDD within the team.
+  - item: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
 
 - company: Natwest Group, Edinburgh
   position: Technology Service Analyst
   timeperiod: Sep 2017 – Apr 2018
-  description: • Migrated server data from bespoke tools to ServiceNow CMDB for better consolidation of data within the enterprise.
-  description2: • Embedded agile methodology for the project through creation of short-term, manageable goals and Kanban dashboards.
-  description3: • Improved communications plans with stakeholders to ensure transparency and effective communication
+  description:
+  - item: • Migrated server data from bespoke tools to ServiceNow CMDB for better consolidation of data within the enterprise.
+  - item: • Embedded agile methodology for the project through creation of short-term, manageable goals and Kanban dashboards.
+  - item: • Improved communications plans with stakeholders to ensure transparency and effective communication
 
 - company: Merck Sharp & Dohme (MSD), Newcastle
   position: Chemical Engineer
   timeperiod: Aug 2015 – Sep 2016
-  description: • Supported technical operations in solid-dose tablet production facility and operated within GMP standards.
-  description2: • Led incidents/deviations investigations to identify root causes using Lean Six Sigma methodologies.
-  description3: • Generated technical memorandums for process improvements. Implementation of new design reduced operation downtime.
+  description:
+  - item: • Supported technical operations in solid-dose tablet production facility and operated within GMP standards.
+  - item: • Led incidents/deviations investigations to identify root causes using Lean Six Sigma methodologies.
+  - item: • Generated technical memorandums for process improvements. Implementation of new design reduced operation downtime.
   
 education:
 - degree: MEng Chemical Engineering with Industrial Experience, University of Manchester

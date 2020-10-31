@@ -114,7 +114,6 @@
               </span>
               <a
                 v-for="(description, index) in experience.description"
-                class="grid-item"
                 :key="index">
                 <span class="section-content-new__text-info">
                   {{ description.item }}

@@ -11,10 +11,11 @@ experience:
 - company: Natwest Group, Edinburgh
   position: Software Engineer
   timeperiod: since April 2018
-  description: • Automated onboarding process to developer tools
-  description2: • Developed microservices in event-driven architecture
+  description: • Automated onboarding process to developer tools. Reducing cycle time from 48 hrs to 5 mins.
+  description2: • Developed microservices in event-driven architecture. Have a good understanding of the ecosystem.
   description3: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
-  description4: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
+  description4: • Cultivated culture of BDD, TDD within the team.
+  description5: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
 
 - company: Natwest Group, Edinburgh
   position: Technology Service Analyst
@@ -58,6 +59,8 @@ skills:
 - name: AppDynamics
 - name: Docker
 - name: CICD
+- name: Cucumber
+- name: Serenity
 knowledge: Grew up trilingual (English, Mandarin, Malay).
 
 # projects:

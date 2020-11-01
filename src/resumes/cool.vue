@@ -178,7 +178,7 @@
               :class="{ link: contribution.url !== undefined}"
               :href="contribution.url">
               <span class="section-content__header"> {{ contribution.name }} </span>
-              <span class="section-content__text"> {{ contribution.description }} </span>
+              <span class="section-content-new__text-info"> {{ contribution.description }} </span>
               <span class="section-content__text--light" style="word-break: break-all;">
                 {{ contribution.url }}
               </span>
@@ -379,7 +379,7 @@ export default Vue.component(name, getVueOptions(name));
     display: block;
     font-size: 1.1em;
     font-weight: 600;
-    margin-above: 10px;
+    margin-block-start: 8px;
   }
 
   &__subheader {
@@ -392,7 +392,7 @@ export default Vue.component(name, getVueOptions(name));
   &__text-info {
     display: block;
     font-size: 13.5px;
-    margin-bottom:2px;
+    margin-block-start:5px;
   }
 
   &__item-grid {
@@ -416,6 +416,7 @@ export default Vue.component(name, getVueOptions(name));
 
   &__plain {
     display: inline;
+    margin-bottom: 10px;
     font-weight: 300;
   }
 

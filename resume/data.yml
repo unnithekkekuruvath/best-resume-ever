@@ -3,7 +3,7 @@ name:
   first: Hwee Shan
   middle:
   last: Wong
-about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience for other engineers. 
+about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience for other engineers. I have experience in delivering microservices using the twelve-factor app methodology. I have also worked on implementing infrastructure solutions and services.
 
 position: Software Developer
 
@@ -12,11 +12,12 @@ experience:
   position: Software Engineer
   timeperiod: since April 2018
   description: 
-  - item: • Automated onboarding process to developer tools. Reduced cycle time from 48 hrs to 5 mins.
-  - item: • Developed microservices in event-driven architecture. Have a good understanding of the ecosystem.
+  - item: • Automated the onboarding process to developer tools. Reduced cycle time from 48 hrs to 5 mins.
+  - item: • Delivered microservices in event-driven architecture and have deep understanding of the architecture.
   - item: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
-  - item: • Cultivated culture of BDD, TDD within the team.
-  - item: • Presented proof of concepts for IAM integration of tools to Ping Federate and Active Directory
+  - item: • Cultivated the culture of BDD, TDD within the team which enhanced system reliability and team's devops metrics.
+  - item: • Presented proof of concepts for successful IAM integration of tools to Ping Federate and Active Directory. 
+  - item: • Supported migration work of on-prem SaaS product.
 
 - company: Natwest Group, Edinburgh
   position: Technology Service Analyst
@@ -24,9 +25,9 @@ experience:
   description:
   - item: • Migrated server data from bespoke tools to ServiceNow CMDB for better consolidation of data within the enterprise.
   - item: • Embedded agile methodology for the project through creation of short-term, manageable goals and Kanban dashboards.
-  - item: • Improved communications plans with stakeholders to ensure transparency and effective communication
+  - item: • Improved communications plans with stakeholders to ensure transparency and effective communication.
 
-- company: Merck Sharp & Dohme (MSD), Newcastle
+- company: Merck, Sharp & Dohme (MSD), Newcastle
   position: Chemical Engineer
   timeperiod: Aug 2015 – Sep 2016
   description:
@@ -39,7 +40,7 @@ education:
   timeperiod: Sep 2013 – Jun 2017
   description: First Class Honors
 
-- degree: A Levels, Taylor’s College Subang Jaya
+- degree: A Levels, Taylor’s College
   timeperiod: Jan 2012 – Jun 2013
   description: 4A* in Chemistry, Biology, Physics, Mathematics
 
@@ -52,7 +53,7 @@ skills:
 - name: Apache Kafka
 - name: Apache Kafka
 - name: MongoDB
-- name: PaaS
+- name: Pivotal Cloud Foundry (PaaS)
 - name: AWS
 - name: Terraform
 - name: Consul
@@ -94,7 +95,7 @@ contributions:
   
 
 contact:
-  email: hweeshan.wong@natwest.com
+  email: hweeshan_wong@hotmail.com
   phone: +44 7424 586 826
   street: Flat 8, 4 Appin Place, EH14 1PW
   city: Edinburgh

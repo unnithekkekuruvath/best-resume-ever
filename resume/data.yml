@@ -13,7 +13,7 @@ experience:
   timeperiod: since April 2018
   description: 
   - item: • Automated the onboarding process to developer tools. Reduced cycle time from 48 hrs to 5 mins.
-  - item: • Delivered microservices in event-driven architecture and have deep understanding of the architecture.
+  - item: • Delivered Spring Boot Java microservices in event-driven architecture and have deep understanding of the system design.
   - item: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
   - item: • Cultivated the culture of BDD, TDD within the team which enhanced system reliability and team's devops metrics.
   - item: • Presented proof of concepts for different IAM integration of tools. 
@@ -51,7 +51,6 @@ skills:
 - name: Golang
 - name: Python
 - name: Apache Kafka
-- name: Apache Kafka
 - name: MongoDB
 - name: Pivotal Cloud Foundry (PaaS)
 - name: AWS
@@ -65,6 +64,7 @@ skills:
 - name: CICD
 - name: Cucumber
 - name: Serenity
+- name: Kubernetes
 knowledge: Grew up trilingual (English, Mandarin, Malay).
 
 # projects:

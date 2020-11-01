@@ -290,7 +290,7 @@ export default Vue.component(name, getVueOptions(name));
 }
 
 .section {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 .section-link,
@@ -416,7 +416,6 @@ export default Vue.component(name, getVueOptions(name));
 
   &__plain {
     display: inline;
-    margin-bottom: 10px;
     font-weight: 300;
   }
 

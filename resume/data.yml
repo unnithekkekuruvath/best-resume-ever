@@ -3,9 +3,9 @@ name:
   first: Hwee Shan
   middle:
   last: Wong
-about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience for other engineers. I have experience in delivering microservices using the twelve-factor app methodology, designing even-driven architecture and have also worked on implementing infrastructure solutions and services.
+about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience. I have experience in delivering microservices using the twelve-factor app methodology, designing event-driven architecture and implementing infrastructure solutions and services.
 
-position: Software Developer
+position: Software Engineer
 
 experience:
 - company: Natwest Group, Edinburgh
@@ -14,26 +14,25 @@ experience:
   description: 
   - item: • Automated the onboarding process to developer tools. Reduced cycle time from 48 hrs to 5 mins.
   - item: • Delivered Spring Boot Java microservices in event-driven architecture and have deep understanding of the system design.
-  - item: • Collaborated closely with customers/SMEs in agile development. >50% reduction in cycle time from development to release
-  - item: • Cultivated the culture of BDD, TDD within the team which enhanced system reliability and team's devops metrics.
-  - item: • Presented proof of concepts for different IAM integration of tools. 
-  - item: • Led migration work for on-prem SaaS product.
+  - item: • Actively engaged in system design decisions/architecture. Collaborated closely with customers/SMEs in agile development.
+  - item: • Cultivated behaviour-driven and test-driven development within the team which enhanced system reliability and team's devops metrics. KPI - 50% reduction in software development cycle time.
+  - item: • Drove infrastructure and tooling improvements. Presented proof of concepts for various authentication/authorisation modules for tools.
+  - item: • Mentoring junior engineers and continuously building best practices within the team such as codifying workflow using plantuml.
 
 - company: Natwest Group, Edinburgh
   position: Technology Service Analyst
   timeperiod: Sep 2017 – Apr 2018
   description:
-  - item: • Migrated server data from bespoke tools to ServiceNow CMDB for better consolidation of data within the enterprise.
-  - item: • Embedded agile methodology for the project through creation of short-term, manageable goals and Kanban dashboards.
-  - item: • Improved communications plans with stakeholders to ensure transparency and effective communication.
+  - item: • Responsible for migrating server data from bespoke tools to standardised ServiceNow Configuration Management Database for better consolidation of enterprise data.
+  - item: • Automated data gathering and validation process for the migration work to make sure data quality was high and consistent.
+  - item: • Drove the implementation of agile ways of working in my team through creation of short-term, manageable goals and Kanban boards.
 
 - company: Merck, Sharp & Dohme (MSD), Newcastle
   position: Chemical Engineer
   timeperiod: Aug 2015 – Sep 2016
   description:
   - item: • Supported technical operations in solid-dose tablet production facility and operated within GMP standards.
-  - item: • Led incidents/deviations investigations to identify root causes using Lean Six Sigma methodologies.
-  - item: • Generated technical memorandums for process improvements. Implementation of new design reduced operation downtime.
+  - item: • Solved process deviations and problems by identifying root causes using Lean Six Sigma methodologies.
   
 education:
 - degree: MEng Chemical Engineering with Industrial Experience, University of Manchester
@@ -85,10 +84,10 @@ knowledge: Grew up trilingual (English, Mandarin, Malay).
 
 contributions:
 - name: Women In Tech Secretariat
-  description: Actively supporting gender balance within workplace. Running python workshops to promote engineering.
+  description: Actively supporting gender balance within workplace. Running python workshops to promote software development.
 
 - name: STEM Ambassador
-  description: Encouraging students to appreciate Science, Technology, Engineering and Math (STEM) subjects by engaging students in interesting experiments and sharing work experience.
+  description: Encouraging students to appreciate Science, Technology, Engineering and Math (STEM) subjects by engaging them in interesting experiments and sharing work experience.
 
 - name: STV Big Scot Quiz Volunteer
   description: Volunteered to assist and coordinate the running of a major, high-profile charity event that was held concurrently in Edinburgh and Glasgow which raised £35,000.

@@ -207,7 +207,7 @@ export default Vue.component(name, getVueOptions(name));
 @banner-height: 50px;
 @picture-size: 80px;
 @picture-offset: 35px;
-@base-padding: 30px;
+@base-padding: 25px;
 @left-column-width: 230px;
 
 .link {

@@ -9,23 +9,23 @@ position: Software Engineer
 
 experience:
 - company: Natwest Group, Edinburgh
-  position: Software Engineer
+  position: Software Engineer, Enterprise Engineering
   timeperiod: since April 2018
   description: 
-  - item: • Automated the onboarding process to developer tools. Reduced cycle time from 48 hrs to 5 mins.
+  - item: • Automated the process of onboarding users to developer tools and technologies which reduced lead time from 48 hours to 5 mins.
   - item: • Delivered Spring Boot Java microservices in event-driven architecture and have deep understanding of the system design.
-  - item: • Actively engaged in system design decisions/architecture. Collaborated closely with customers/SMEs in agile development.
-  - item: • Cultivated behaviour-driven and test-driven development within the team which enhanced system reliability and team's devops metrics. KPI - 50% reduction in software development cycle time.
-  - item: • Drove infrastructure and tooling improvements. Presented proof of concepts for various authentication/authorisation modules for tools.
-  - item: • Mentoring junior engineers and continuously building best practices within the team such as codifying workflow using plantuml.
+  - item: • Actively involved in decision making of system design and architecture improvements by collaborating closely with customers/SMEs.
+  - item: • Cultivated behaviour-driven and test-driven development within the team which enhanced system reliability and team's DevOps metrics. Software development cycle time KPI reduced by 50%.
+  - item: • Presented proof of concepts for various authentication/authorisation modules for tools which drove infrastructure and tooling improvements.
+  - item: • Mentored junior engineers and continuously building best practices within the team such as codifying workflow using plantUML.
 
 - company: Natwest Group, Edinburgh
   position: Technology Service Analyst
   timeperiod: Sep 2017 – Apr 2018
   description:
   - item: • Responsible for migrating server data from bespoke tools to standardised ServiceNow Configuration Management Database for better consolidation of enterprise data.
-  - item: • Automated data gathering and validation process for the migration work to make sure data quality was high and consistent.
-  - item: • Drove the implementation of agile ways of working in my team through creation of short-term, manageable goals and Kanban boards.
+  - item: • Automated data gathering and validation process for the migration work to ensure data quality was high and consistent.
+  - item: • Drove the implementation of agile ways of working in my team through creation of manageable goals and Sprint boards.
 
 - company: Merck, Sharp & Dohme (MSD), Newcastle
   position: Chemical Engineer

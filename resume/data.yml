@@ -1,47 +1,88 @@
 /* #*/ export const PERSON = `
 name:
-  first: Hwee Shan
+  first: Unnikrishnan
   middle:
-  last: Wong
-about: Hi, my name is Hwee and currently a software engineer in Natwest Group. I am passionate about developing tools and products to boost engineering experience. I have experience in delivering microservices using the twelve-factor app methodology, designing event-driven architecture and implementing infrastructure solutions and services.
+  last: Thekkekuruvath
+about: Hi, My name is Unni and currently a Technical Product Manager in Natwest Group. I am passionate about developing tools and products to boost engineering experience. I have experience in delivering microservices using the twelve-factor app methodology, designing event-driven architecture and implementing infrastructure solutions and services, experienced in leading an engineering team to achive concrete goals on a strict deadline.
 
-position: Software Engineer
+position: Technical Product Manager
 
 experience:
 - company: Natwest Group, Edinburgh
-  position: Software Engineer, Enterprise Engineering
-  timeperiod: since April 2018
+  position: Technical Product Manager, Enterprise Engineering
+  timeperiod: since May 2019
   description: 
+  - item: • Managing Goal based pipeline and Application Authorisation Management Product team.
   - item: • Automated the process of onboarding users to CI/CD tools and technologies which reduced lead time from 48 hours to 5 mins.
   - item: • Delivered Spring Boot Java microservices in event-driven architecture and have deep understanding of the system design.
   - item: • Actively involved in decision making of system design and architecture improvements by collaborating closely with customers/SMEs.
-  - item: • Cultivated behaviour-driven and test-driven development within the team which enhanced system reliability and team's DevOps metrics. Software development cycle time KPI reduced by 50%.
-  - item: • Presented proof of concepts for various authentication/authorisation modules for tools which drove infrastructure and tooling improvements.
-  - item: • Mentored junior engineers and continuously building best practices within the team such as codifying workflow using plantUML.
+  - item: • Mentored junior engineers and continuously building best practices within the bank.
 
 - company: Natwest Group, Edinburgh
-  position: Technology Service Analyst
-  timeperiod: Sep 2017 – Apr 2018
-  description:
-  - item: • Responsible for migrating server data from bespoke tools to standardised ServiceNow Configuration Management Database for better consolidation of enterprise data.
-  - item: • Automated data gathering and validation process for the migration work to ensure data quality was high and consistent.
-  - item: • Drove the implementation of agile ways of working in my team through creation of manageable goals and Sprint boards.
+  position: Lead Engineer, Enterprise Engineering
+  timeperiod: Jan 2018 - May 2019
+  description: 
+  - item: • Managing engineering team in Edinburgh.
 
-- company: Merck, Sharp & Dohme (MSD), Newcastle
-  position: Chemical Engineer
-  timeperiod: Aug 2015 – Sep 2016
-  description:
-  - item: • Supported technical operations in solid-dose tablet production facility and operated within GMP standards.
-  - item: • Solved process deviations and problems by identifying root causes using Lean Six Sigma methodologies.
+- company: Natwest Group, Edinburgh
+  position: Head of Midrange 
+  timeperiod: Jun 2017 - Jan 2018
+  description: 
+  - item: • Managing entire Midrange server(Tandem Server, OpenVMS, Unix Server).
+
+- company: Natwest Group, Edinburgh
+  position: Head of Unix KSOR
+  timeperiod: Oct 2014 - Jun 2017
+  description: 
+  - item: • Managing support of Unix Servers across the bank.
+
+- company: Natwest Group, Edinburgh
+  position: Unix Team Lead 
+  timeperiod: Oct 2010 - Oct 2014
+  description: 
+  - item: • Managing support of Unix Servers across the bank.
+
+- company: Natwest Group, Edinburgh
+  position: Senior Unix System Administrator
+  timeperiod: Nov 2005 - Oct 2010
+  description: 
+  - item: • Working as System admin looking after Sun, HP, AIX and Linux Servers.
   
-education:
-- degree: MEng Chemical Engineering with Industrial Experience, University of Manchester
-  timeperiod: Sep 2013 – Jun 2017
-  description: First Class Honors
+- company: CSC, Edinburgh
+  position: Senior Unix System Administrator
+  timeperiod: Jun 2003 - Oct 2005
+  description: 
+  - item: • Working as System admin looking after Motorola account.
 
-- degree: A Levels, Taylor’s College
-  timeperiod: Jan 2012 – Jun 2013
-  description: 4A* in Chemistry, Biology, Physics, Mathematics
+- company: Motorola, Bathgate
+  position: Senior Unix System Administrator
+  timeperiod: Jul 1999 - Jun 2003
+  description: 
+  - item: • Working as System admin looking after Sun and AIX servers.
+
+- company: BT, Milton Keynes
+  position: Unix System Administrator
+  timeperiod: May 1998 - Jun 1999
+  description: 
+  - item: • Working as System admin looking after Sun and AIX servers.
+
+- company: Ensign International BV, Amsterdam
+  position: Technical Consultant
+  timeperiod: Jul 1997 - Mar 1998
+  description: 
+  - item: • Working as Consultant looking after Ensign Clients.
+
+- company: Pentafour, Chennai
+  position: Developer 
+  timeperiod: Jul 1996 - Jul 1997
+  description: 
+  - item: • Working as developer coding in GuptaSQL.
+
+
+education:
+- degree: Master of Business Administrator(MBA), Edinburgh Napier University
+  timeperiod: 2012 – 2015
+
 
 # skill level goes 0 to 100
 skills:
@@ -61,10 +102,15 @@ skills:
 - name: AppDynamics
 - name: Docker
 - name: CICD
-- name: Cucumber
-- name: Serenity
-- name: Kubernetes
-knowledge: Grew up trilingual (English, Mandarin, Malay).
+- name: Springboot
+- name: Terraform
+- name: Vertx
+- name: Solaris
+- name: AIX
+- name: HPUX
+- name: VCS
+
+knowledge: Grew up Quardrilingual (English, Malayalam, Hindi, Tamil).
 
 # projects:
 # - name: best-resume-ever
@@ -82,23 +128,13 @@ knowledge: Grew up trilingual (English, Mandarin, Malay).
 #   iconClass: fa fa-pencil
 #   url: https://example.com
 
-contributions:
-- name: Women In Tech Secretariat
-  description: Actively supporting gender balance within workplace. Ran python workshops to promote software development.
-
-- name: STEM Ambassador
-  description: Encouraged students to appreciate Science, Technology, Engineering and Math (STEM) subjects by engaging them in interesting experiments and sharing work experience.
-
-- name: STV Big Scot Quiz Volunteer
-  description: Volunteered to assist and coordinate the running of a major, high-profile charity event that was held concurrently in Edinburgh and Glasgow which raised £35,000.
-  
 
 contact:
-  email: hweeshan_wong@hotmail.com
-  phone: +44 7424 586 826
-  street: Flat 8, 4 Appin Place, EH14 1PW
-  city: Edinburgh
-  github: HweeWong
+  email: unni_moto@me.com
+  phone: +44 7561 105 147
+  street: 57, Alder walk,East Calder, EH53 0FF
+  city: Livingston
+  github: unnithekkekuruvath
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

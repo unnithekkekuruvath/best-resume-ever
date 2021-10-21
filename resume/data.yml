@@ -91,11 +91,8 @@ skills:
 - name: Golang
 - name: Python
 - name: Apache Kafka
-- name: MongoDB
 - name: Pivotal Cloud Foundry (PaaS)
 - name: AWS
-- name: Terraform
-- name: Consul
 - name: API
 - name: Splunk
 - name: Linux
@@ -104,7 +101,6 @@ skills:
 - name: CICD
 - name: Springboot
 - name: Terraform
-- name: Vertx
 - name: Solaris
 - name: AIX
 - name: HPUX
